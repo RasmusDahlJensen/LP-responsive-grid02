@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 600px;
+}
+
+.bgimage{
+    background-image: url(/headerbg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contentwrap{
+    margin: 0%;
+    padding: 0;
+}
+
+.contentwrap h1{
+    margin: 0%;
+    padding: 0;
+}

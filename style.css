@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     min-width: 600px;
 }
-
+.mainheader{
+    height: 100%;
+}
 
 .bgimage{
     background-image: url(headerbg.jpg);
@@ -15,14 +20,44 @@ body{
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
-    opacity: 0.8;
+    padding-top: 100px;
 }
 
 .headercontent{
  margin: 0;
+ color: rgb(219, 219, 219);
+ text-align: center;
+ text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
+
+.headercontent button{
+    margin-top: 3%;
+    background-color: rgb(49, 49, 49);
+    border-color: white;
+    border-radius: 0;
+    padding: 15px 25px 15px 25px;
+    color: white;
+    border: 1px solid grey;
+
+   }
 
 .mainheader h1{
     margin: 0;
     padding: 0;
+}
+
+.mainheader p{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+.firstdesc{
+
+}
+
+.firstdesc h2{
+    text-align: center;
+    color: rgb(65, 65, 65);
 }

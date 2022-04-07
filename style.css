@@ -4,8 +4,9 @@ body{
     min-width: 600px;
 }
 
+
 .bgimage{
-    background-image: url(/headerbg.jpg);
+    background-image: url(headerbg.jpg);
     background-position: center;
     background-size: cover;
     margin: 0;
@@ -14,14 +15,14 @@ body{
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
+    opacity: 0.8;
 }
 
-.contentwrap{
-    margin: 0%;
-    padding: 0;
+.headercontent{
+ margin: 0;
 }
 
-.contentwrap h1{
-    margin: 0%;
+.mainheader h1{
+    margin: 0;
     padding: 0;
 }

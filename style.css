@@ -13,21 +13,21 @@ body{
 .bgimage{
     background-image: url(/img/headerbg.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0;
     padding: 0;
-    height: 25%;
+    height: auto;
     width: auto;
 }
 
 .headercontent{
- margin: 0;
- padding: 7%;
- color: rgb(235, 235, 235);
- text-align: center;
- text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    margin: 0;
+    padding: 7%;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 }
 
 .headercontent button{
@@ -72,6 +72,7 @@ justify-content: center;
     text-align: center;
     gap: 5%;
     max-width: 50%;
+    height: 100%;
 }
 
 .firstdesc .descheader{
@@ -102,13 +103,14 @@ justify-content: center;
 
 .cardsection{
     display: grid;
-    height: auto;
-    width: 60%;
-    padding: 5%;
+    height: auto;;
     gap: 10%;
     grid-template-areas: 
     'card1 card2 card3';
     grid-template-columns: 1fr 1fr;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 6%;
 }
 
 .card img{
@@ -159,7 +161,7 @@ justify-content: center;
 
 .flexcardsect{
     display: flex;
-    justify-content: center;
     background-color: #333;
+    justify-content: space-around;
 
 }

@@ -4,7 +4,6 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    min-width: 600px;
 }
 .mainheader{
     height: 100%;
@@ -15,17 +14,17 @@ body{
     background-image: url(/img/headerbg.png);
     background-position: center;
     background-size: contain;
-    margin: 0;
-    padding: 0;
-    height: 450px;
-    width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-top: 100px;
+    margin: 0;
+    padding: 0;
+    height: 25%;
+    width: auto;
 }
 
 .headercontent{
  margin: 0;
+ padding: 7%;
  color: rgb(235, 235, 235);
  text-align: center;
  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
@@ -38,6 +37,7 @@ body{
     padding: 15px 25px 15px 25px;
     color: white;
     border: 1px solid grey;
+    margin-top: 3%;
    }
 
 .mainheader h1{
@@ -47,15 +47,40 @@ body{
 }
 
 .mainheader p{
+    font-size: 18px;
+    word-wrap: break-word;
+    max-width: 50%;
     text-align: center;
-    width: 50%;
     margin-left: 25%;
-    font-size: 26px;
 }
 
 
 .firstdesc{
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'content1 content2'
+    'footer footer';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    gap: 3%;
+}
 
+.firstdesc .descheader{
+    grid-area: header;
+}
+
+.firstdesc .text1{
+    grid-area: content1
+}
+
+.firstdesc .text2{
+    grid-area: content2;
+}
+
+.firstdesc .descfooter{
+    grid-area: footer;
+    color: rgb(65, 65, 65);
 }
 
 .firstdesc h2{

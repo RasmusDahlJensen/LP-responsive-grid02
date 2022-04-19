@@ -102,7 +102,6 @@ min-height: 100%;
 
 .cardsection{
     display: grid;
-    height: auto;;
     gap: 10%;
     grid-template-areas: 
     'card1 card2 card3';
@@ -218,8 +217,19 @@ body{
 /* Tablet media query */
 
 @media screen and (min-width:501px) and (max-width:1000px){
-body{
-    color: blue;
+.cardsection{
+    gap: 0%;
+    padding: 0%;
+    display: block;
+}   
+.card{
+    box-shadow: none;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
 }
 
+.cardsection img{
+    height: 150px;
+}
 }

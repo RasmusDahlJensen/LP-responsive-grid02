@@ -114,6 +114,10 @@ body{
     padding-right: 6%;
 }
 
+.cardtextcontent{
+    padding: 1%;
+}
+
 .card img{
     width: 300px;
     height: 300px;
@@ -245,6 +249,18 @@ body{
 }
 .firstdesc p{
     margin-top: 15%;
+}
+.infosect{
+    display: block;
+    font-size: 16px;
+    padding: 0%;
+}
+.contactus{
+    padding: 2%;
+}
+
+.aboutus{
+    padding: 2%;
 }
 }
     
